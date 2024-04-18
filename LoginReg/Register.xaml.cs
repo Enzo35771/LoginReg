@@ -11,6 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+// added these to allow usage of SQL : - Sum
+using System.Data;
+using System.Data.SqlClient;
+using System.Text.RegularExpressions;
 
 namespace LoginReg
 {
