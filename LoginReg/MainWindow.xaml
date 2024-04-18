@@ -10,6 +10,12 @@
         <Grid>
             <Label x:Name="lblTitle" FontSize="60" FontFamily="calibri" Content="Login" HorizontalAlignment="Center" VerticalAlignment="Top" Width="144" Foreground="White" Margin="0,10,0,0"/>
 
+            <Label Content="Username" HorizontalAlignment="Left" Height="43" Margin="10,111,0,0" VerticalAlignment="Top" Width="125" Foreground="White" FontSize="23"/>
+
+            <Label Content="Password" HorizontalAlignment="Left" Height="43" Margin="10,223,0,0" VerticalAlignment="Top" Width="125" Foreground="White" FontSize="23"/>
+            <TextBox HorizontalAlignment="Left" Margin="10,159,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="278" Height="36" Background="DimGray" Foreground="White" FontSize="20" />
+            <TextBox HorizontalAlignment="Left" Margin="10,266,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="278" Height="36" Background="DimGray" Foreground="White" FontSize="20" />
+
         </Grid>
     </Border>
 </Window>
