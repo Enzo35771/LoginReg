@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LoginReg"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="285,102,0,0" VerticalAlignment="Top"/>
+        Title="MainWindow" Height="450" Width="357">
+    <Border Background="Gray" Margin="22" CornerRadius="40">
+        <Grid>
+            <Label x:Name="lblTitle" FontSize="60" FontFamily="calibri" Content="Login" HorizontalAlignment="Center" VerticalAlignment="Top" Width="144" Foreground="White" Margin="0,10,0,0"/>
 
-    </Grid>
+        </Grid>
+    </Border>
 </Window>
